@@ -13,13 +13,16 @@ API para administrar y trackear muestras de laboratorio utilizando .NET Core, C#
 - `tests/LabSampleTracker.Tests`: Pruebas unitarias.
 
 
-lab-sample-tracker/             <-- Raíz del Repositorio Git 
+### Árbol de Directorios del Repositorio
+
+```text
+lab-sample-tracker/             <-- Raíz del Repositorio Git
 │
 ├── LabSampleTracker.sln        <-- Archivo de Solución (Orquestador de proyectos)
 ├── .gitignore                  <-- Exclusiones oficiales de .NET 8
-├── README.md                   <-- Esta documentación 
+├── README.md                   <-- Esta documentación
 │
-├── LabSampleTracker.API/       <-- Proyecto Principal (Web API) 
+├── LabSampleTracker.API/       <-- Proyecto Principal (Web API)
 │   ├── LabSampleTracker.API.csproj
 │   ├── Program.cs              <-- Punto de entrada y configuración de DI
 │   ├── appsettings.json        <-- Cadenas de conexión (SQL Server)
@@ -39,7 +42,7 @@ lab-sample-tracker/             <-- Raíz del Repositorio Git
 │       ├── Patient.cs
 │       └── Sample.cs
 │
-└── LabSampleTracker.Tests/     <-- Proyecto de Pruebas Unitarias 
+└── LabSampleTracker.Tests/     <-- Proyecto de Pruebas Unitarias
     ├── LabSampleTracker.Tests.csproj
     └── SampleStatusTests.cs
 
